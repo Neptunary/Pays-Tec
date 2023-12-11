@@ -1,0 +1,49 @@
+/* Style global pour le corps de la page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;  /* Couleur de fond */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* Centrage horizontal */
+  align-items: center;  /* Centrage vertical */
+  height: 100vh;  /* Hauteur de la vue */
+}
+
+/* Style pour le formulaire */
+form {
+  background-color: #fff;  /* Couleur de fond du formulaire */
+  padding: 20px;
+  border-radius: 8px;  /* Coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Ombre légère */
+  text-align: center;  /* Centrage du texte */
+}
+
+/* Style pour les étiquettes du formulaire */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style pour les champs de saisie du formulaire */
+input {
+  width: 100%;  /* Largeur pleine */
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;  /* La largeur inclut le rembourrage et la bordure */
+}
+
+/* Style pour le bouton du formulaire */
+button {
+  background-color: #007bff;  /* Couleur de fond du bouton */
+  color: #fff;  /* Couleur du texte */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;  /* Coins arrondis */
+  cursor: pointer;
+}
+
+/* Style pour le survol du bouton */
+button:hover {
+  background-color: #0056b3;  /* Nouvelle couleur de fond lors du survol */
+}
